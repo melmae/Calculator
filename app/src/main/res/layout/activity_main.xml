@@ -24,12 +24,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Enter first number"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintTop_toBottomOf="@id/textView"
         android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="213dp"/>
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <EditText
         android:id="@+id/secondNumber"
@@ -38,12 +38,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Enter second number"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintTop_toBottomOf="@id/firstNumber"
         android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="213dp"/>
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
         android:id="@+id/buttonAdd"
